@@ -9,7 +9,7 @@
   "keywords": [],
   "author": "The-Nice-One",
   "license": "APACHE-2.0",
-  "type": "module",
+  "type": "commonjs",
   "dependencies": {
     "@actions/core": "^1.11.1",
     "@actions/github": "^6.0.1",

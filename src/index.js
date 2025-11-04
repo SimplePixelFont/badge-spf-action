@@ -1,7 +1,7 @@
-import * as jimp from "jimp";
-import * as spf from "web-spf"
-import * as core from "@actions/core";
-import * as github from "@actions/github";
+const jimp = require("jimp");
+const spf = require("web-spf");
+const core = require("@actions/core");
+const github = require("@actions/github");
 
 async function get_logo() {
     let image = await jimp.Jimp.read(core.getInput("logo"));
