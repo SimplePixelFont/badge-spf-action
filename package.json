@@ -1,0 +1,24 @@
+{
+  "name": "badge-spf-action",
+  "version": "0.1.0",
+  "description": "An action for generating a badge using SimplePixelFonts",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "The-Nice-One",
+  "license": "APACHE-2.0",
+  "type": "module",
+  "dependencies": {
+    "@actions/core": "^1.11.1",
+    "@actions/github": "^6.0.1",
+    "jimp": "^1.6.0",
+    "web-spf": "^0.1.5"
+  },
+  "devDependencies": {
+    "@rollup/plugin-commonjs": "^29.0.0",
+    "@rollup/plugin-node-resolve": "^16.0.3",
+    "rollup": "^4.52.5"
+  }
+}
