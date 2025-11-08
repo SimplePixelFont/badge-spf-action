@@ -1,6 +1,6 @@
 {
   "name": "badge-spf-action",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "An action for generating a badge using SimplePixelFonts",
   "main": "index.js",
   "scripts": {
