@@ -14,7 +14,7 @@
     "@actions/core": "^1.11.1",
     "@actions/github": "^6.0.1",
     "jimp": "^1.6.0",
-    "web-spf": "^0.1.6"
+    "web-spf": "^0.1.7"
   },
   "devDependencies": {
     "@rollup/plugin-commonjs": "^29.0.0",
