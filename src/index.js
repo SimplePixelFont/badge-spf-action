@@ -53,7 +53,6 @@ async function create_badge() {
     logo_texture.texture_data = icon.data;
     socket.logo = logo_texture;
     const texture = spf.print_badge(socket);
-    console.log("we good so far!");
 
     const width = texture.width;
     const height = texture.height;
